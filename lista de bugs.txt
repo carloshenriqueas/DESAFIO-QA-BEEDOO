@@ -1,5 +1,7 @@
 OBS: A exigência pela lista de bugs não aparece no enunciado no início do formulário, apenas nas considerações finais, após fazer as duas etapas. 
 
+O bug report abaixo é baseado em modelos comuns para sistemas simples como este. Dessa forma, o entendimento é claro e objetivo. 
+
 BUG 1:
 Descrição
 Quando se deseja excluir um curso, a mensagem de exclusão com sucesso aparece, porém o curso não é excluído.
