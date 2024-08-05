@@ -1,0 +1,33 @@
+OBS: A exigência pela lista de bugs não aparece no enunciado no início do formulário, apenas nas considerações finais, após fazer as duas etapas. 
+
+BUG 1:
+Descrição
+Quando se deseja excluir um curso, a mensagem de exclusão com sucesso aparece, porém o curso não é excluído.
+
+Passos para reprodução:
+1 - Vá ao módulo "Listar Cursos"
+2 - Escolha um curso e clique em "Excluir Curso"(caso não tenha nenhum cadastrado, adicione)
+
+Gravidade do problema - Alta
+
+
+BUG 2:
+Descrição: Imagem de capa não aparece quando colocada url
+
+Passos para reprodução:
+1 - Cadastre um curso
+2 - No campo "Imagem de capa", coloque uma url 
+3 - Verifique o curso cadastrado em "Listar Curso" 
+
+Gravidade do problema - Baixa
+
+
+BUG 3:
+Descrição: Data de início pode ser maior que data final
+
+Passos para reprodução:
+1 - Cadastre um curso
+2 - No campo "Data de Início" coloque uma data que seja maior do que a que está em "Data de fim"
+3 - Finalize o cadastro
+
+Gravidade do problema - Alta
